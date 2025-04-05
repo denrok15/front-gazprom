@@ -7,7 +7,7 @@ function App() {
     const [message, setMessage] = useState('');
     const handleSubmit = (event) => {
         event.preventDefault(); // Предотвращает перезагрузку страницы при отправке формы
-        alert(`Чо ты написал: ${message}`);
+        alert(`Что же ты написал ты написал: ${message}`);
     };
     return (
         <>
