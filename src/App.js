@@ -12,8 +12,8 @@ function App() {
     return (
         <>
             <Header/>
-            <div className={'App-main text-center'}>
-                <span>Чем я могу помочь?</span>
+            <div className={'App-main'}>
+                <span className={'txt'}>Чем я могу помочь?</span>
                 <div className={''}>
                     <form onSubmit={handleSubmit}>
                         <div>
